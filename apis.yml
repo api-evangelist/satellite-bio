@@ -1,8 +1,26 @@
 aid: satellite-bio
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/satellite-bio.png
 name: Satellite Bio
-description: Satellite Bio is a company surfaced as a portfolio company of lightspeed-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Satellite Bio is a biotechnology company developing off-the-shelf liver cell
+  therapies to treat severe and life-threatening liver diseases. Its tissue
+  therapeutics platform engineers functional hepatocytes designed to engraft and
+  restore liver function, combining the biological power of liver cells with
+  scalable manufacturing and distribution. The company is headquartered in
+  Newton, Massachusetts and is backed by Lightspeed Venture Partners. Satellite
+  Bio is a life-sciences company and does not currently publish a public
+  developer platform, API, or technical integration surface.
 url: https://raw.githubusercontent.com/api-evangelist/satellite-bio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +30,41 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Biotechnology
+- Life Sciences
+- Cell Therapy
+- Tissue Therapeutics
+- Liver Disease
+- Regenerative Medicine
+- Pharmaceuticals
 apis: []
+common:
+- type: VulnerabilityDisclosure
+  url: security/satellite-bio-vulnerability-disclosure.yml
+- type: Security
+  url: well-known/satellite-bio-security.txt
+- type: DomainSecurity
+  url: security/satellite-bio-domain-security.yml
+- type: Website
+  url: https://satellite.bio/
+- type: Careers
+  url: https://satellite.bio/careers
+- type: LinkedIn
+  url: https://www.linkedin.com/company/satellite-bio/
+- type: SecurityTxt
+  url: well-known/satellite-bio-security.txt
+- type: WellKnown
+  url: well-known/satellite-bio-well-known.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1

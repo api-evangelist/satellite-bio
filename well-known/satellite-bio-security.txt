@@ -1,0 +1,15 @@
+# security.txt file for https://satellite.bio/ - more info: https://securitytxt.org/
+# (required) Contact email address for security issues
+Contact: dev+satellitebio@onedesigncompany.com
+
+# (required) Expiration date for the security information herein
+Expiration: 2026-07-21T01:29:25-04:00
+
+# (optional) OpenPGP key:
+Encryption: https://satellite.bio/pgp-key.txt
+
+# (optional) Security policy page:
+Policy: https://satellite.bio/security-policy
+
+# (optional) Security acknowledgements page:
+Acknowledgements: https://satellite.bio/hall-of-fame
